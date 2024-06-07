@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+
+}
+
+.center {
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+
+    padding: 13px;
+    align-items: center;
+    position: fixed;
+
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    /* display: none; */
+}
+
+nav a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    transition: color 0.5s ease;
+    color: rgb(255, 0, 0);
+
+}
+
+nav img {
+    justify-content: space-between;
+    height: 20px;
+    display: flex;
+    margin-left: 135vh;
+
+}
+
+
+
+.home img {
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.home center {
+    margin-top: -60px;
+}
+
+
+
+
+#band {
+    align-items: center;
+
+    justify-content: center;
+}
+
+#band .box {
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+}
+
+#band .box img {
+    height: 200px;
+}
+
+
+
+
+#tour {
+    background-color: black;
+    color: white;
+    /* height: fit-content; */
+    width: 100%;
+}
+
+
+
+#tour .sales {
+    /* border: 1px solid red; */
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#tour .sales .sout {
+    background-color: red;
+    border-radius: 3px;
+    padding: 3px 5px 3px 5px;
+}
+
+#tour .sales p {
+    padding-top: 10px;
+}
+
+#tour .sales .number {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 10px;
+    margin-left: 85%;
+}
+
+/* .tourw {
+    background-color: black;
+} */
+.back {
+    background-color: black;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+#tour img {
+    height: 200px;
+    width: 100%;
+    padding: 0;
+}
+
+.img {
+    margin-top: 10px;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    display: inline;
+    /* width: fit-content; */
+    height: fit-content;
+    background-color: none;
+    margin: 20px 5px 0 5px;
+    background-color: white;
+    color: black;
+}
+
+.all {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img p {
+    padding-top: 7px;
+}
+
+.img button {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin: 10px;
+}
+
+#contact .left .icon {
+
+    height: 15px;
+}
+
+#contact .left {
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: block; */
+    padding-left: 140px;
+
+}
+
+#contact .left center p {
+    font-size: 13px;
+}
+
+.left {
+
+    padding-right: 100px;
+    width: fit-content;
+    text-align: left;
+    display: inline;
+}
+
+.right {
+
+    width: 50%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.in {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: fit-content;
+    margin: 20px;
+
+
+}
+
+.right form input {
+    height: 30px;
+    width: 145px;
+    display: flex;
+    display: inline;
+    border: none;
+    border: 1px solid lightgray;
+
+
+
+
+}
+
+form textarea::placeholder,
+.right form input::placeholder {
+    padding: 5px;
+    color: lightgray;
+}
+
+form textarea {
+    height: 30px;
+    resize: none;
+    width: 100%;
+    border: none;
+    border: 1px solid lightgray;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.right button {
+    background-color: rgb(86, 86, 86);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.right .button {
+    margin-left: 80%;
+    /* border: 1px solid red; */
+}
